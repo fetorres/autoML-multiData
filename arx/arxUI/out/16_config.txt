@@ -1,0 +1,4 @@
+Input File Size: 2985
+Privacy Criterion 1: 16-anonymity
+Average Re-identification Risk: 0.004020100502512563
+Highest Re-identification Risk: 0.041666666666666664

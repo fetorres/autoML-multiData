@@ -1,0 +1,5 @@
+Privacy Criterion: 2-anonymity
+
+Average Re-identification Risk: 0.010050251256281407
+Highest Re-identification Risk: 0.5
+

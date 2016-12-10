@@ -1,0 +1,2986 @@
+sex__cat,age__cat,race__cat,marital-status__cat,education__cat,native-country__cat,workclass__cat,occupation__cat,salary-class__cat
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Female,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,>50K
+Female,*,*,*,Undergraduate,*,*,*,>50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Professional Education,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Primary School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,High School,*,*,*,<=50K
+Male,*,*,*,Graduate,*,*,*,>50K
+Male,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K
+Female,*,*,*,Graduate,*,*,*,<=50K
+Female,*,*,*,Undergraduate,*,*,*,<=50K
+Female,*,*,*,High School,*,*,*,<=50K

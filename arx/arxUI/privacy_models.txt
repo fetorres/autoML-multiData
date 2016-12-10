@@ -1,0 +1,31 @@
+[(e,d)-Differential privacy] Protects information about the individuals, but preserves information about the population. 
+Recommended Setting: e <= 1, d <= 1/size of dataset. Smaller e and d gives stronger privacy protection. 
+
+[k-Anonymity] Protects against identity disclosure. That is, it prevents an attacker from re-identify the records in the dataset. 
+Recommended Setting: k > 1 / maximum acceptable re-identification risk. Larger k gives stronger privacy protection. 
+
+[k-Map] A variant of k-anonymity, which considers explicit information about the underlying population.
+Recommended Setting: k > 1 / maximum acceptable re-identification risk. Larger k gives stronger privacy protection. 
+
+[d-Presence] Protects against membership disclosure. That is, it prevents an attacker from inferring whether an individual's record is included in the dataset. 
+Recommended Setting: d_min >= 0, d_max <= 0.5. Smaller range gives stronger privacy protection. 
+
+[Average-reidentification-risk] Protects against marketer attacks (A re-identification attack that targets a large portion of the records.) 
+Recommended Setting: Acceptable re-identification risk.
+
+[Population-uniqueness] Protects against identity disclosure in marketer attacks. 
+Recommended Setting: < 10% Low uniqueness (strong privacy protection), 10%~50% Medium uniqueness (medium privacy protection), >50% High uniqueness (low privacy protection). 
+
+[Sample-uniqueness] Records that are unique within the sample. Recommended Setting: Smaller value gives stronger privacy protection. 
+
+[l-Diversity] Protects against attribute disclosure. That is, it prevents an attacker from inferring the sensitive attributes in the dataset. 
+*User needs to define the sensitive attributes under "Data Transformation" first. 
+Recommended Setting: l > 1 / acceptable probability of attribute disclosure. Larger l gives stronger privacy protection. 
+
+[t-Closeness] Protects against attribute disclosure. An alternative for l-Diversity. 
+*User needs to define the sensitive attributes under "Data Transformation" first. 
+Recommended Setting:  t <= 0.2. Smaller t gives stronger privacy protection. 
+
+[d-Disclosure privacy] A very strict measure for mitigating attribute disclosure. 
+*User needs to define the sensitive attributes under "Data Transformation" first. 
+Recommended Setting: d <= 1.2. Smaller d gives stronger privacy protection. 

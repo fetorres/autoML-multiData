@@ -1,0 +1,3 @@
+Privacy Criterion 1: (0.01)-population-uniques (dankar)
+Average Re-identification Risk: 0.8827470686767169
+Highest Re-identification Risk: 1.0

@@ -1,0 +1,16 @@
+out/30.csv
+out/30_config.txt
+out/40.csv
+out/40_config.txt
+out/50.csv
+out/50_config.txt
+out/60.csv
+out/60_config.txt
+out/70.csv
+out/70_config.txt
+out/80.csv
+out/80_config.txt
+out/90.csv
+out/90_config.txt
+out/100.csv
+out/100_config.txt

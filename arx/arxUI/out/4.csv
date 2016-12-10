@@ -1,0 +1,2986 @@
+sex__cat,age__cat,race__cat,marital-status__cat,education__cat,native-country__cat,workclass__cat,occupation__cat,salary-class__cat
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Female,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Female,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,>50K
+Female,*,*,Spouse not present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Female,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,>50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Other,<=50K
+Male,*,*,Spouse not present,*,*,*,Technical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse not present,*,*,*,Nontechnical,<=50K
+Male,*,*,Spouse present,*,*,*,Nontechnical,>50K
+Male,*,*,Spouse present,*,*,*,Technical,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K
+Female,*,*,Spouse not present,*,*,*,Other,<=50K

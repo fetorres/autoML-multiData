@@ -1,0 +1,6 @@
+majority_voting.png
+classify_models.p
+*.p
+*.data
+*.pyc
+

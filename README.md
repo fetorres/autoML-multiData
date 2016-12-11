@@ -12,12 +12,14 @@ SciPy:    sudo apt-get install python3-scipy<br>
 cython:   sudo pip3 install cython<br>
 Pylab:    sudo pip3 install matplotlib  (pylab is part of matplotlib)<br>
 Py-earth: go into the py-earth directory of the github repository and execute 'sudo python3 setup.py install'<br>
-You may also need:<br>
-    	  sudo pip3 install Pillow<br>
-	  sudo apt-get install python3-tk<br>
 <br>
 The above steps are currently being tested on MacOS.<br>
 For Windows, I am using conda/anaconda.  Do the installations in the order above.  
+<br>
+The following packages get automatically installed if you are using Anaconda, but if not you may also need:<br>
+    	  sudo pip3 install Pillow<br>
+	  sudo apt-get install python3-tk<br>
+	  <br>
 See Python_Windows_List_of_Packages.txt for the list of packages in a working Windows environment. (Not all packages are needed for autoML, but those that are have their version listed.)
 <br>
 <br>

@@ -10,7 +10,7 @@ NumPy:    sudo apt-get install python3-numpy<br>
 SciPy:    sudo apt-get install python3-scipy<br>
 cython:   sudo pip3 install cython<br>
 Pylab:    sudo pip3 install matplotlib  (pylab is part of matplotlib)<br>
-Py-earth: go into the py-earth directory of the github repository and execute 'sudo python3 setup.py install'<br>
+Py-earth: go into the py-earth directory of your instance of this github repository and execute 'sudo python3 setup.py install'<br>
 <br>
 The above steps are currently being tested on MacOS.<br>
 For Windows, I am using conda/anaconda.  Do the installations in the order above.  

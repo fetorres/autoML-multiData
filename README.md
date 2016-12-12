@@ -1,8 +1,7 @@
 #  Setting up your python environment	
 This version is being tested using Python 3.5
 It is being tested on Windows 64-bit and Linux Ubuntu 64-bit.  autoML.py should also work on MacOSx 64-bit
-and 32-bit Windows, Linux, and MacOSx.  Java needs to be installed for autoML.py to work because ARX,
-a Java program, has been modified to work with autoML for deprivatizing data with privacy concerns.
+and 32-bit Windows, Linux, and MacOSx.  ARX, a Java program, has been modified to work with autoML for deprivatizing data with privacy concerns.  Unless the -s or --privatize_data flag is set to "none", , Java needs to be installed for autoML.py to work.
 The Python packages needed include NumPy, SciPy, cython, Pylab, and pyearth.  The installation of these
 packages can be tricky on some systems.  Here is a process that has usually been working on Linux:<br>
 <br>

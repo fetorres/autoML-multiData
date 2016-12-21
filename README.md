@@ -103,8 +103,10 @@ datasets have been assembled into files autoML can use.
 
 ## Testing autoML
 
-We use the nose2 testing framework.  See http://nose2.readthedocs.io/en/latest/getting_started.html.
-Install nose2 as:<br>
+We use the nose2 testing framework.  See http://nose2.readthedocs.io/en/latest/getting_started.html.  Install nose2 as:<br>
     	  sudo pip3 install nose2<br>
 	  <br>
+	  <br>
+nose2 looks for packages, files and methods whose names begin with "test".  There is a file in autoML-multiData
+named "test_autoML.py".  It loads autoML.py and runs it with the "-x" (run regression test) flag set.
 

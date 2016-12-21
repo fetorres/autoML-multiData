@@ -100,3 +100,11 @@ A sample run could be with following command:
 ## Subdirectories:
 /example datasets - this subdirectory contains examples of how data from different 
 datasets have been assembled into files autoML can use. 
+
+## Testing autoML
+
+We use the nose2 testing framework.  See http://nose2.readthedocs.io/en/latest/getting_started.html.
+Install nose2 as:<br>
+    	  sudo pip3 install nose2<br>
+	  <br>
+

@@ -32,7 +32,6 @@ A sample can be run by executing<br>
     python autoML.py  -i INPUT_FILE    (if run without the -i argument, it will run the time series data in data.csv)
 ```
 <br>
-<br>
     **usage:** autoML.py [-h] [-m MODEL_TYPE] [-i INPUT_FILE] [-file2 SECONDARY_FILE]
                      [-w SECONDARY_WEIGHTS] [-d DISTANCEFN] [-sprs SPARSITY]
                      [-r RADIUS] [-t MAX_TIME] [-n MAX_ITERATIONS] [-pca N_PCA]
@@ -92,12 +91,11 @@ assign elements of the second dataset to each row in the first dataset. A
 cutoff radius is used for the selection, with default initial value of 1. The
 -r option can be used to scale the distance function differently. 
 
-
 ##  Executing analysis with multiple datasets
 
 A sample run could be with following command:
 
-```python
+``` python
 python3 autoML.py -m classification -i datasets/accident-landmarks-dataset/primary.data.csv -file2 datasets/accident-landmarks-dataset/secondary.data.csv -sprs 0.1 -r 1000 -d distanceOnEarth(2) -s none -t 300
 ```
 	
@@ -110,10 +108,10 @@ datasets have been assembled into files autoML can use.
 We use the nose2 testing framework.  See http://nose2.readthedocs.io/en/latest/getting_started.html.  Install nose2 as:<br>
 ```
     sudo pip3 install nose2
-<br>
+ ```
 <br>
 nose2 looks for packages, files and methods whose names begin with "test".  There is a file in autoML-multiData
 named "test_autoML.py".  It loads autoML.py and runs it with the "-x" (run regression test) flag set.  To invoke the tests that include coverage and pylint, cd to /mnt/disks/disk-1/autoML-multiData and type:<br>
-```python
+``` python
 nose2 --with-coverage
 ```

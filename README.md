@@ -108,5 +108,5 @@ We use the nose2 testing framework.  See http://nose2.readthedocs.io/en/latest/g
 	  <br>
 	  <br>
 nose2 looks for packages, files and methods whose names begin with "test".  There is a file in autoML-multiData
-named "test_autoML.py".  It loads autoML.py and runs it with the "-x" (run regression test) flag set.  To invoke the tests that include coverage and pylint, cd to /mnt/disks/disk-1/autoML-multiData and type:
+named "test_autoML.py".  It loads autoML.py and runs it with the "-x" (run regression test) flag set.  To invoke the tests that include coverage and pylint, cd to /mnt/disks/disk-1/autoML-multiData and type:<br>
 	nose2 --with-coverage<br>

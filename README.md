@@ -95,7 +95,7 @@ cutoff radius is used for the selection, with default initial value of 1. The
 
 A sample run could be with following command:
 
-    python autoML.py -m classification -i datasets/accident-landmarks-dataset/primary.data.csv -file2 datasets/accident-landmarks-dataset/secondary.data.csv -sprs 0.1 -r 1000 -d distanceOnEarth(2) -s none -t 300
+    python3 autoML.py -m classification -i datasets/accident-landmarks-dataset/primary.data.csv -file2 datasets/accident-landmarks-dataset/secondary.data.csv -sprs 0.1 -r 1000 -d distanceOnEarth(2) -s none -t 300
 	
 ## Subdirectories:
 /example datasets - this subdirectory contains examples of how data from different 
@@ -108,5 +108,5 @@ We use the nose2 testing framework.  See http://nose2.readthedocs.io/en/latest/g
 	  <br>
 	  <br>
 nose2 looks for packages, files and methods whose names begin with "test".  There is a file in autoML-multiData
-named "test_autoML.py".  It loads autoML.py and runs it with the "-x" (run regression test) flag set.
-
+named "test_autoML.py".  It loads autoML.py and runs it with the "-x" (run regression test) flag set.  To invoke the tests that include coverage and pylint, cd to /mnt/disks/disk-1/autoML-multiData and type:
+	nose2 --with-coverage<br>

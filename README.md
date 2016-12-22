@@ -28,7 +28,8 @@ This is an extension to autoML library built by Raj Minhas at PARC.
 autoML has features added for desensitizing data with privacy concerns.
 A sample can be run by executing<br>
 <br>
-python autoML.py  -i INPUT_FILE    (if run without the -i argument, it will run the time series data in data.csv)
+```python autoML.py  -i INPUT_FILE    (if run without the -i argument, it will run the time series data in data.csv)
+```
 <br>
 <br>
 <br>
@@ -96,7 +97,9 @@ cutoff radius is used for the selection, with default initial value of 1. The
 
 A sample run could be with following command:
 
-    python3 autoML.py -m classification -i datasets/accident-landmarks-dataset/primary.data.csv -file2 datasets/accident-landmarks-dataset/secondary.data.csv -sprs 0.1 -r 1000 -d distanceOnEarth(2) -s none -t 300
+```python
+python3 autoML.py -m classification -i datasets/accident-landmarks-dataset/primary.data.csv -file2 datasets/accident-landmarks-dataset/secondary.data.csv -sprs 0.1 -r 1000 -d distanceOnEarth(2) -s none -t 300
+```
 	
 ## Subdirectories:
 /example datasets - this subdirectory contains examples of how data from different 
@@ -105,9 +108,12 @@ datasets have been assembled into files autoML can use.
 ## Testing autoML
 
 We use the nose2 testing framework.  See http://nose2.readthedocs.io/en/latest/getting_started.html.  Install nose2 as:<br>
-    	  sudo pip3 install nose2<br>
-	  <br>
-	  <br>
+```
+    sudo pip3 install nose2
+<br>
+<br>
 nose2 looks for packages, files and methods whose names begin with "test".  There is a file in autoML-multiData
 named "test_autoML.py".  It loads autoML.py and runs it with the "-x" (run regression test) flag set.  To invoke the tests that include coverage and pylint, cd to /mnt/disks/disk-1/autoML-multiData and type:<br>
-	nose2 --with-coverage<br>
+```python
+nose2 --with-coverage
+```

@@ -9,7 +9,7 @@ from time import time
 from ClusterWrapper import DbscanC, KmeansC
 
 class RandomizedSearchCluster(object):
-    def __init__(self, estimator, param_distributions, n_iter=70, random_state=None, logConf='logging.conf'):
+    def __init__(self, estimator, param_distributions, n_iter=70, random_state=0xDEADBEEF, logConf='logging.conf'):
         #logging.config.fileConfig(logConf)
         #self.logger = logging.getLogger('autoML')
         self.estimator = estimator

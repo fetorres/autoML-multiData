@@ -5,6 +5,7 @@ def noop(*args, **kwargs):
     pass
 warnings.showwarning = noop 
 warnings.warn = noop
+import numpy as np
 from Data import Data
 from Experts import Experts
 import signal
@@ -43,18 +44,25 @@ from sklearn.covariance import EllipticEnvelope
 from ClusterWrapper import DbscanC, KmeansC
 
 class Model(object):
-    def __init__(self, data, test_size=0.25, logConf='logging.conf', n_pca_components=2):
+    def __init__(self, data, test_size=0.25, logConf='logging.conf', n_pca_components=2, do_regression_test=False):
         def signal_handler(signum, frame):
             raise Exception("Timed out!")
         global isUnixLike
         isUnixLike = platform.system().startswith('Linux') or platform.system().startswith('Darwin')
         if isUnixLike:  signal.signal(signal.SIGALRM, signal_handler)
+        self.do_regression_test = do_regression_test
         #logging.config.fileConfig(logConf)
         #self.logger = logging.getLogger('autoML')
         self.data = data
         self.test_size = test_size
         self.experts = None
         self.n_pca_components = n_pca_components
+
+        # if we're running a regression test, stomp out one more source of random behavior
+        # to see if we can get repeatable results for the regression tests
+        if self.do_regression_test:
+            sp_randint.random_state = 0xDEADBEEF
+            sp_uniform.random_state = 0xBEEFF00D
 
     def trainClassifier(self, max_iterations, max_time=60, verbosity=0, excludeModels=[] ):
         """Train a supervised classification model. The parameters max_iterations and max_time can be used to
@@ -71,62 +79,117 @@ class Model(object):
         cfeatures = FeatureUnion([('pca', pca), ('kbest', cselection)])
         cfeatures_params = [('features__pca__n_components', sp_randint(1,nfeatures+1)), ('features__kbest__k', sp_randint(1, nfeatures+1))]
         
-        self.cinit = {
-            'AdaBoost': [Pipeline([('features', cfeatures), ('AdaBoost', AdaBoostClassifier(n_estimators=100))]),
-                            dict(cfeatures_params + [('AdaBoost__learning_rate', sp_uniform(0.75, 1.25))])],
-            'DecisionTree': [Pipeline([('features', cfeatures), ('DecisionTree', DecisionTreeClassifier())]),
-                            dict(cfeatures_params +
-                                 [('DecisionTree__max_depth', [3, 4, 5, None]), ('DecisionTree__max_features', ['sqrt', 'log2', None]),
-                                    ('DecisionTree__min_samples_split', sp_randint(2, 11)), ('DecisionTree__min_samples_leaf', sp_randint(2, 11)),
-                                    ('DecisionTree__criterion', ['gini', 'entropy'])])],
-            'ExtraTrees': [Pipeline([('ExtraTrees', ExtraTreesClassifier())]),
-                            dict(
-                                 [('ExtraTrees__max_depth', [3, None]), #'ExtraTrees__max_features': sp_randint(1, nfeatures),
-                                    ('ExtraTrees__min_samples_split', sp_randint(2, 11)), ('ExtraTrees__min_samples_leaf', sp_randint(1, 11)),
-                                    ('ExtraTrees__bootstrap', [True, False]), ('ExtraTrees__criterion', ['gini', 'entropy'])])],
-            'GaussianNB': [Pipeline([('features', cfeatures), ('GaussianNB', GaussianNB())]), dict(cfeatures_params)],
+        self.cinit = {}
+        self.cinit['AdaBoost'] = [Pipeline([('features', cfeatures), ('AdaBoost', AdaBoostClassifier(n_estimators=100))]),
+                            dict(cfeatures_params + [('AdaBoost__learning_rate', sp_uniform(0.75, 1.25))])]
+        if not self.do_regression_test:
+            self.cinit['DecisionTree'] = [Pipeline([('features', cfeatures),
+                                                    ('DecisionTree', DecisionTreeClassifier())]),
+                                          dict(cfeatures_params +
+                                               [('DecisionTree__max_depth', [3, 4, 5, None]),
+                                                ('DecisionTree__max_features', ['sqrt', 'log2', None]),
+                                                ('DecisionTree__min_samples_split', sp_randint(2, 11)),
+                                                ('DecisionTree__min_samples_leaf', sp_randint(2, 11)),
+                                                ('DecisionTree__criterion', ['gini', 'entropy'])])]
+        else:
+            self.cinit['DecisionTree'] = [Pipeline([('features', cfeatures),
+                                                    ('DecisionTree', DecisionTreeClassifier(random_state=0xDEADBEEF))]),
+                                          dict(cfeatures_params +
+                                               [('DecisionTree__max_depth', [3, 4, 5, None]),
+                                                ('DecisionTree__max_features', ['sqrt', 'log2', None]),
+                                                ('DecisionTree__min_samples_split', sp_randint(2, 11)),
+                                                ('DecisionTree__min_samples_leaf', sp_randint(2, 11)),
+                                                ('DecisionTree__criterion', ['gini', 'entropy'])])]
+        self.cinit['ExtraTrees'] = [Pipeline([('ExtraTrees', ExtraTreesClassifier())]),
+                                    dict(
+                                        [('ExtraTrees__max_depth', [3, None]),
+                                         #('ExtraTrees__max_features', sp_randint(1, nfeatures),
+                                         ('ExtraTrees__min_samples_split', sp_randint(2, 11)),
+                                         ('ExtraTrees__min_samples_leaf', sp_randint(1, 11)),
+                                         ('ExtraTrees__bootstrap', [True, False]),
+                                         ('ExtraTrees__criterion', ['gini', 'entropy'])])]
+        self.cinit['GaussianNB'] = [Pipeline([('features', cfeatures),
+                                              ('GaussianNB', GaussianNB())]),
+                                    dict(cfeatures_params)]
 
-            'GradientBoost': [Pipeline([('features', cfeatures), ('GradientBoost', GradientBoostingClassifier(n_estimators=100))]),
-                            dict(cfeatures_params +
-                                 [('GradientBoost__max_depth', [3, None]), #'GradientBoost__max_features': sp_randint(1, nfeatures),
-                                    ('GradientBoost__min_samples_split', sp_randint(2, 11)), ('GradientBoost__min_samples_leaf', sp_randint(1, 11)),
-                                    ('GradientBoost__learning_rate', sp_uniform(0.01, 0.1))])],
+        self.cinit['GradientBoost'] = [Pipeline([('features', cfeatures),
+                                                 ('GradientBoost', GradientBoostingClassifier(n_estimators=100))]),
+                                       dict(cfeatures_params +
+                                            [('GradientBoost__max_depth', [3, None]),
+                                             #('GradientBoost__max_features', sp_randint(1, nfeatures),
+                                             ('GradientBoost__min_samples_split', sp_randint(2, 11)),
+                                             ('GradientBoost__min_samples_leaf', sp_randint(1, 11)),
+                                             ('GradientBoost__learning_rate', sp_uniform(0.01, 0.1))])]
             
-            'KNeighbors': [Pipeline([('features', cfeatures), ('KNeighbors', KNeighborsClassifier())]),
-                            dict(cfeatures_params +
-                                 [('KNeighbors__n_neighbors', sp_randint(3, 15)), ('KNeighbors__weights', ['uniform', 'distance']),
-                                    ('KNeighbors__p', sp_randint(1, 3))])],
-            'LDA': [Pipeline([('features', cfeatures), ('LDA', LDA())]),
-                    dict(cfeatures_params + [ ('LDA__n_components', sp_randint(1, self.nvars-1)) ] )],
-            'LogisticRegression': [Pipeline([('features', cfeatures), ('LogisticRegression', LogisticRegression())]),
-                    dict(cfeatures_params +
-                         [('LogisticRegression__penalty', ['l1', 'l2']), ('LogisticRegression__C', sp_uniform(0.05, 5.0)),
-                            ('LogisticRegression__fit_intercept', [True, False])])],
-            'QDA': [Pipeline([('features', cfeatures), ('QDA', QDA())]),
-                    dict(cfeatures_params + [('QDA__reg_param', sp_uniform(0.0, 1.0))])],
-            'RandomForest': [Pipeline([('RandomForest', RandomForestClassifier(n_estimators=200))]),
-                            dict(
-                                 [('RandomForest__max_depth', [3, None]), ('RandomForest__n_estimators', sp_randint(10, 200)),
-                                    ('RandomForest__min_samples_split', sp_randint(2, 11)),
-                                    ('RandomForest__min_samples_leaf', sp_randint(1, 11)),
-                                    ('RandomForest__bootstrap', [True, False]), ('RandomForest__criterion', ['gini', 'entropy'])])],
-            'SGD': [Pipeline([('features', cfeatures), ('SGD', SGDClassifier())]),
-                    dict(cfeatures_params +
-                         [('SGD__loss', ['hinge', 'modified_huber', 'log', 'perceptron']),
-                            ('SGD__penalty', ['l1','l2','elasticnet']), ('SGD__alpha', sp_uniform(0.0001, 0.0005)),
-                            ('SGD__l1_ratio', sp_uniform(0.05, 0.95))])]
-            #'''  SV causes autoML to get hung up on some datasets.  Even on Linux with the timeout working, it hangs.
-            # PErhaps feature normalization would help.  For now, comment out SVM.
-            #'SV': [Pipeline([('features', cfeatures), ('SV', SVC(C=1))]),
-            #        dict(cfeatures_params + [('SV__kernel', ['linear', 'rbf']), ('SV__gamma', [1e-4, 1e-3]), ('SV__C', sp_uniform(0.2, 50))])]
-            #'''
-        }
+        self.cinit['KNeighbors'] = [Pipeline([('features', cfeatures),
+                                              ('KNeighbors', KNeighborsClassifier())]),
+                                    dict(cfeatures_params +
+                                         [('KNeighbors__n_neighbors', sp_randint(3, 15)),
+                                          ('KNeighbors__weights', ['uniform', 'distance']),
+                                          ('KNeighbors__p', sp_randint(1, 3))])]
+        
+        self.cinit['LDA'] = [Pipeline([('features', cfeatures),
+                                       ('LDA', LDA())]),
+                             dict(cfeatures_params +
+                                  [('LDA__n_components', sp_randint(1, self.nvars-1)) ] )]
+
+        if not self.do_regression_test:
+            self.cinit['LogisticRegression'] = [Pipeline([('features', cfeatures),
+                                                          ('LogisticRegression', LogisticRegression())]),
+                                                dict(cfeatures_params +
+                                                     [('LogisticRegression__penalty', ['l1', 'l2']),
+                                                      ('LogisticRegression__C', sp_uniform(0.05, 5.0)),
+                                                      ('LogisticRegression__fit_intercept', [True, False])])]
+        else:
+            self.cinit['LogisticRegression'] = [Pipeline([('features', cfeatures),
+                                                          ('LogisticRegression', LogisticRegression(random_state = 0xDEADBEEF))]),
+                                                dict(cfeatures_params +
+                                                     [('LogisticRegression__penalty', ['l1', 'l2']),
+                                                      ('LogisticRegression__C', sp_uniform(0.05, 5.0)),
+                                                      ('LogisticRegression__fit_intercept', [True, False])])]
+            
+        self.cinit['QDA'] = [Pipeline([('features', cfeatures),
+                                       ('QDA', QDA())]),
+                             dict(cfeatures_params +
+                                  [('QDA__reg_param', sp_uniform(0.0, 1.0))])]
+        
+        if not self.do_regression_test:
+            self.cinit['RandomForest'] = [Pipeline([('RandomForest', RandomForestClassifier(n_estimators=200))]),
+                                          dict(
+                                            [('RandomForest__max_depth', [3, None]),
+                                             ('RandomForest__n_estimators', sp_randint(10, 200)),
+                                             ('RandomForest__min_samples_split', sp_randint(2, 11)),
+                                             ('RandomForest__min_samples_leaf', sp_randint(1, 11)),
+                                             ('RandomForest__bootstrap', [True, False]),
+                                             ('RandomForest__criterion', ['gini', 'entropy'])])]
+        else:
+            self.cinit['RandomForest'] = [Pipeline([('RandomForest', RandomForestClassifier(n_estimators=200, random_state=0xDEADBEEF))]),
+                                          dict(
+                                            [('RandomForest__max_depth', [3, None]),
+                                             ('RandomForest__n_estimators', sp_randint(10, 200)),
+                                             ('RandomForest__min_samples_split', sp_randint(2, 11)),
+                                             ('RandomForest__min_samples_leaf', sp_randint(1, 11)),
+                                             ('RandomForest__bootstrap', [True, False]),
+                                             ('RandomForest__criterion', ['gini', 'entropy'])])]
+        self.cinit['SGD'] = [Pipeline([('features', cfeatures),
+                                       ('SGD', SGDClassifier())]),
+                             dict(cfeatures_params +
+                                  [('SGD__loss', ['hinge', 'modified_huber', 'log', 'perceptron']),
+                                   ('SGD__penalty', ['l1','l2','elasticnet']),
+                                   ('SGD__alpha', sp_uniform(0.0001, 0.0005)),
+                                   ('SGD__l1_ratio', sp_uniform(0.05, 0.95))])]
+        #'''  SV causes autoML to get hung up on some datasets.  Even on Linux with the timeout working, it hangs.
+        # PErhaps feature normalization would help.  For now, comment out SVM.
+        #'SV': [Pipeline([('features', cfeatures), ('SV', SVC(C=1))]),
+        #        dict(cfeatures_params + [('SV__kernel', ['linear', 'rbf']), ('SV__gamma', [1e-4, 1e-3]), ('SV__C', sp_uniform(0.2, 50))])]
+        #'''
         
         self.experts = Experts()
         
         for model in excludeModels:
             self.cinit.pop(model, None)
-        max_model_time = max_time / len(self.cinit) 
+        max_model_time = max_time / len(self.cinit)
+        print("max_time: %d, len(self.cinit): %d, max_model_time: %d" % (max_time, len(self.cinit), max_model_time));
         
         self.X_train, self.X_test, self.y_train, self.y_test = self.data.getTrainAndTestData(test_size=self.test_size)
         self.trainSupervisedModel(self.getExecutionTime(self.cinit, max_model_time/2), self.cinit, max_iterations, max_model_time, verbosity)
@@ -214,27 +277,37 @@ class Model(object):
         place an upper limit on the grid search iterations and the time spent on each model fit. The parameter model2exectime
         is a map from the model name to the estimated execution time on the given data set. This estimate is used to compute the
         actual number of parameter grid searches that are actually performed (still limited on the top by max_iterations). """
-        
-        for model, duration in model2exectime.items():
+
+        if not self.do_regression_test:
+            models = model2exectime.items()
+        else:
+            models = sorted(model2exectime.items())
+
+        for model, duration in models:
+            print("model: ", model)
+            print("duration: ", duration)
 
             if isUnixLike:  signal.alarm( int( max_model_time ) + 1 )  # Start the timer - raise an exception if fitting this model does not complete in max_time seconds
             
             try: 
                 v = init[model]
                 n_iterations = min(max_iterations, int(max_model_time / duration))
-                print("Fitting %s (n_iterations=%d, max_model_time=%ds)" % (model, n_iterations, max_model_time))
+                print("Fitting %s (n_iterations=%d, max_model_time=%d sec)" % (model, n_iterations, max_model_time))
                 t0 = time()
 #                clf = RandomizedSearchCV(v[0], v[1], n_iter=n_iterations, verbose=verbosity, n_jobs=cpu_count())
-                clf = RandomizedSearchCV(v[0], v[1], n_iter=n_iterations, verbose=verbosity) 
+                if not self.do_regression_test:
+                    clf = RandomizedSearchCV(v[0], v[1], n_iter=n_iterations, verbose=verbosity)
+                else:
+                    clf = RandomizedSearchCV(v[0], v[1], n_iter=n_iterations, verbose=verbosity, random_state=0xDEADBEEF) 
                 clf.fit(self.X_train, self.y_train) 
                 duration = time() - t0
                 #self.logger.info("   Number of iterations: %d, Elapsed time: %0.2fs" % (n_iterations, duration))
-                print("   Number of iterations: %d, Elapsed time: %0.2fs" % (n_iterations, duration))
+                print("   Number of iterations: %d, Elapsed time: %0.2f sec" % (n_iterations, duration))
                 accuracy = clf.score(self.X_test, self.y_test)
                 self.experts.insertExpert((accuracy, model, clf.best_estimator_, clf.best_params_))
             except Exception as msg :
                 print("Skipping %s due to error: %s" % (model, msg))
-                
+            
         if isUnixLike:  signal.alarm(0)
 
     def getCVResults(self, clf):
@@ -252,15 +325,24 @@ class Model(object):
         """This method is used to estimate the running time of a model fit prior to doing the full cross-validation run.
         The number of runs done for this estimation is specified by sample_size and the upper limit for doing those model
         fits is max_model_time."""
+        print("====== getExecutionTime, max_model_time: %d" % max_model_time);
         execTime = {}
-        for k, v in init.items():
+        if not self.do_regression_test:
+            items = init.items()
+        else:
+            items = sorted(init.items())
+
+        for k, v in items:
             
             if isUnixLike: signal.alarm( int(max_model_time) + 1 ) # Interrupt the model fitting if it doesn't complete in max_time seconds
             
             try:
                 t0 = time()
                 print( "%s" % k )
-                clf = RandomizedSearchCV(v[0], v[1], n_iter=sample_size, verbose=verbosity)
+                if not self.do_regression_test:
+                    clf = RandomizedSearchCV(v[0], v[1], n_iter=sample_size, verbose=verbosity)
+                else:
+                    clf = RandomizedSearchCV(v[0], v[1], n_iter=sample_size, verbose=verbosity, random_state=0xDEADBEEF)
                 clf.fit(self.X_train, self.y_train)
                 duration = (time() - t0) + 1e-6 # avoid zero durations
                 #self.logger.info("Time to fit %s instances of %s: %0.2fs" % (sample_size, k, duration))
@@ -269,7 +351,12 @@ class Model(object):
             except Exception as msg :
                 #self.logger.info("Skipping %s due to error: %s"%(k, msg))
                 print("Skipping %s due to error: %s"%(k, msg))
-                
+
+        # in an effort to make the regression tests results repeatable,
+        # reset the random number generator.  Why here?  Because I moved
+        # these around until things seemed to stabilize.
+        if self.do_regression_test:
+            np.random.seed(0xDEADBEEF)
         if isUnixLike:  signal.alarm(0)
         return execTime
 
@@ -278,6 +365,7 @@ class Model(object):
         defined as outliers while max_model_time specifies the maximum amount of time that can be spent on building each model.
         max_iterations is not used, but is present to be consistent with other methods
         """
+        print("=======================  IN trainOutlierDetector  ========================")
         pca = PCA(self.n_pca_components)
         self.oinit = {
             'SV': Pipeline([('features', pca), ('SV', OneClassSVM())]),
@@ -307,6 +395,7 @@ class Model(object):
         place an upper limit on the grid search iterations and the time spent on each model fit. The main work is done by
         by the RandomizedSearchCluster class which relies on IPython's parallel computing capabilties. As such, this method
         needs to specify an IPython client object that will be the interface to the parallel computing facilities."""
+        print("=======================  IN trainClusterer  ========================")
         self.clinit = {
             'Dbscan': [DbscanC(eps=0.5, min_samples=5),
                         {'eps': sp_uniform(1e-5, 4), 'min_samples': sp_randint(5, 30)}],
@@ -368,7 +457,19 @@ class Model(object):
         except:
             print("Expert %s not found" % name)
             return None
-    
+
+#   def numRandomVarsConsumed(tag):
+    """try to see how many random numbers were consumed since the last time this routine was called"""
+    #np.random.seed(0xDEADBEEF)
+    """
+    numRands = 0;
+    latestRandom = np.random.randint(0x00000000, 0xFFFFFFFF)
+    np.random.seed(0xDEADBEEF)
+    while np.random.randint(0x00000000, 0xFFFFFFFF) != latestRandom:
+        numRands = numRands + 1
+    print("--------------------------- %d random numbers consumed at %s" % (numRands, tag))
+    np.random.seed(0xDEADBEEF)
+    """
 
 #########
 if __name__ == '__main__':

@@ -28,9 +28,9 @@ This is an extension to autoML library built by Raj Minhas at PARC.
 autoML has features added for desensitizing data with privacy concerns.
 A sample can be run by executing<br>
 <br>
-```python autoML.py  -i INPUT_FILE    (if run without the -i argument, it will run the time series data in data.csv)
+``` python
+    python autoML.py  -i INPUT_FILE    (if run without the -i argument, it will run the time series data in data.csv)
 ```
-<br>
 <br>
 <br>
     **usage:** autoML.py [-h] [-m MODEL_TYPE] [-i INPUT_FILE] [-file2 SECONDARY_FILE]

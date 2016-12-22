@@ -18,6 +18,7 @@ For Windows, I am using conda/anaconda.  Do the installations in the order above
 The following packages get automatically installed if you are using Anaconda, but if not you may also need:<br>
     	  sudo pip3 install Pillow<br>
 	  sudo pip3 install cov-core<br>
+	  sudo pip3 install nose2<br>
 	  sudo apt-get install python3-tk<br>
 	  <br>
 See Python_Windows_List_of_Packages.txt for the list of packages in a working Windows environment. (Not all packages are needed for autoML, but those that are have their version listed.)
@@ -105,11 +106,7 @@ datasets have been assembled into files autoML can use.
 
 ## Testing autoML
 
-We use the nose2 testing framework.  See http://nose2.readthedocs.io/en/latest/getting_started.html.  Install nose2 as:<br>
-```
-    sudo pip3 install nose2
- ```
-<br>
+We use the nose2 testing framework.  See http://nose2.readthedocs.io/en/latest/getting_started.html.  The command to install nose2 was shown above.<br>
 nose2 looks for packages, files and methods whose names begin with "test".  There is a file in autoML-multiData
 named "test_autoML.py".  It loads autoML.py and runs it with the "-x" (run regression test) flag set.  To invoke the tests that include coverage and pylint, cd to /mnt/disks/disk-1/autoML-multiData and type:<br>
 ``` python

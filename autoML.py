@@ -279,18 +279,27 @@ def test_autoML(commandLineArgs=[]) :
     (m, n_experts) = autoML_process(p)
 
     # compare the outputs
-    pickle.dump( m, open( "classify_models.p", "wb" ))
-    ypred = m.experts.predict(m.X_test, method='majority', top=n_experts)
-    plot_confusion_matrix(confusion_matrix(m.y_test, ypred), m, 'majority_voting')
+    if p.model_type == 'classification':
+        pickle.dump( m, open( "classify_models.p", "wb" ))
+        ypred = m.experts.predict(m.X_test, method='majority', top=n_experts)
+        plot_confusion_matrix(confusion_matrix(m.y_test, ypred), m, 'majority_voting')
 
-    
-    # return the three strings that constitute our output.
-    # These are the classifiers with their figures of merit,
-    # a confusion matrix and a report on how well the classifiers did.
-    return (str(m.experts), str(confusion_matrix(m.y_test, ypred)),
-            str(classification_report(m.y_test, ypred)))
-          
-    #print ( "Ensemble Confusion Matrix (based on majority votes of top %d models):\n%s\n%s" % (n_experts, confusion_matrix(m.y_test, ypred), classification_report(m.y_test, ypred)) )
+        # return the three strings that constitute our output.
+        # These are the classifiers with their figures of merit,
+        # a confusion matrix and a report on how well the classifiers did.
+        return {'experts':str(m.experts),
+                'confusionMatrix':str(confusion_matrix(m.y_test, ypred)),
+                'classificationReport':str(classification_report(m.y_test, ypred))}
+    elif p.model_type == 'regression':
+        pickle.dump( m, open( "regression_models.p", "wb" ))   # 'wb' means write only, binary mode (as opposed to text)
+        ypred = m.experts.predict(m.X_test, method='average', top=n_experts)
+        return {'experts':str(m.experts),
+                'regressionReport':(n_experts, r2_score(m.y_test, ypred))}
+    elif p.model_type == 'clustering':
+        print("Haven't implemented regression test for clustering")
+    elif p.model_type == 'outlier_detection':
+        print("Haven't implemented regression test for outlier_detection")
+
 
 # here's where we say what should be executed when this module is the "main" module, as opposed to a module that's
 # loaded by test_autoML.py.

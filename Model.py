@@ -25,7 +25,7 @@ from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, AdaBoostClassifier, GradientBoostingClassifier
 from sklearn.linear_model import SGDClassifier, LogisticRegression
 from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import KNeighborsClassifier, DistanceMetric
 from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.lda import LDA
@@ -80,8 +80,10 @@ class Model(object):
         cfeatures_params = [('features__pca__n_components', sp_randint(1,nfeatures+1)), ('features__kbest__k', sp_randint(1, nfeatures+1))]
         
         self.cinit = {}
-        self.cinit['AdaBoost'] = [Pipeline([('features', cfeatures), ('AdaBoost', AdaBoostClassifier(n_estimators=100))]),
-                            dict(cfeatures_params + [('AdaBoost__learning_rate', sp_uniform(0.75, 1.25))])]
+        self.cinit['AdaBoost'] = [Pipeline([('features', cfeatures),
+                                            ('AdaBoost', AdaBoostClassifier(n_estimators=100))]),
+                                  dict(cfeatures_params +
+                                       [('AdaBoost__learning_rate', sp_uniform(0.75, 1.25))])]
         if not self.do_regression_test:
             self.cinit['DecisionTree'] = [Pipeline([('features', cfeatures),
                                                     ('DecisionTree', DecisionTreeClassifier())]),
@@ -201,68 +203,181 @@ class Model(object):
         if the user already knows that a particular model is unsuitable for a particular data set)."""
         self.nvars = self.data.X.shape[1]
         if self.nvars < 4:
-            nfeatures = self.nvars
+             nfeatures = self.nvars
         else:
             nfeatures = max(1, 3 * self.nvars / 4)
         rselection = SelectKBest(f_regression, k=1)
-        pca = PCA(self.n_pca_components, whiten=False)
+        if not self.do_regression_test:
+            pca = PCA(self.n_pca_components, whiten=False)
+        else:
+            pca = PCA(self.n_pca_components, whiten=False, random_state=0xDEADBEEF)
         rfeatures = FeatureUnion([('pca', pca), ('kbest', rselection)])
         rfeatures_params = [('features__pca__n_components', sp_randint(1,nfeatures+1)), ('features__pca__whiten', [True, False]),
             ('features__kbest__k', sp_randint(1, nfeatures+1))]
         #rfeatures = FeatureUnion([('kbest', rselection)])
         #rfeatures_params = [('features__kbest__k', sp_randint(1, nfeatures))]
-        self.rinit = {
-            'AdaBoost': [Pipeline([('features', rfeatures), ('AdaBoost', AdaBoostRegressor(n_estimators=100))]),
-                            dict(rfeatures_params + [('AdaBoost__learning_rate', sp_uniform(0.75, 1.25))])],
-            'BayesianRidge': [Pipeline([('features', rfeatures), ('BayesianRidge', BayesianRidge())]),
-                             dict(rfeatures_params +
-                                  [('BayesianRidge__alpha_1', sp_uniform(1e-6, 1e-4)), ('BayesianRidge__alpha_2', sp_uniform(1e-6, 1e-4)),
-                                    ('BayesianRidge__lambda_1', sp_uniform(1e-6, 1e-4)), ('BayesianRidge__lambda_2', sp_uniform(1e-6, 1e-4))])],
-            'DecisionTree': [Pipeline([('features', rfeatures), ('DecisionTree', DecisionTreeRegressor())]),
-                            dict(rfeatures_params +
-                                 [('DecisionTree__max_depth', [3, 4, 5, None]), ('DecisionTree__max_features', ['sqrt', 'log2', None]),
-                                    ('DecisionTree__min_samples_split', sp_randint(2, 11)), ('DecisionTree__min_samples_leaf', sp_randint(2, 11))])],
-            'ElasticNet': [Pipeline([('features', rfeatures), ('ElasticNet', ElasticNet())]),
-                            dict(rfeatures_params +
-                                 [('ElasticNet__alpha', sp_uniform(0.5, 2.)), ('ElasticNet__l1_ratio', sp_uniform(0.,1.))])],
-            'ExtraTrees': [Pipeline([('features', rfeatures), ('ExtraTrees', ExtraTreesRegressor())]),
-                            dict(rfeatures_params +
-                                 [('ExtraTrees__max_depth', [3, None]), #'ExtraTrees__max_features': sp_randint(1, nfeatures),
-                                    ('ExtraTrees__min_samples_split', sp_randint(2, 11)), ('ExtraTrees__min_samples_leaf', sp_randint(1, 11)),
-                                    ('ExtraTrees__bootstrap', [True, False])])],
-            'GradientBoost': [Pipeline([('features', rfeatures), ('GradientBoost', GradientBoostingRegressor(n_estimators=100))]),
-                            dict(rfeatures_params +
-                                 [('GradientBoost__max_depth', [3, None]), #'GradientBoost__max_features': sp_randint(1, nfeatures),
-                                    ('GradientBoost__min_samples_split', sp_randint(2, 11)),
-                                    ('GradientBoost__min_samples_leaf', sp_randint(1, 11)),
-                                    ('GradientBoost__learning_rate', sp_uniform(0.01, 0.1)),
-                                    ('GradientBoost__loss', ['ls', 'lad', 'huber', 'quantile'])])],
-            'KNeighbors': [Pipeline([('features', rfeatures), ('KNeighbors', KNeighborsRegressor())]),
-                            dict(rfeatures_params +
-                                 [('KNeighbors__n_neighbors', sp_randint(3, 15)), ('KNeighbors__weights', ['uniform', 'distance']),
-                                    ('KNeighbors__p', sp_randint(0, 2))])],
-            'Lasso': [Pipeline([('features', rfeatures), ('Lasso', Lasso())]),
-                            dict(rfeatures_params + [('Lasso__alpha', sp_uniform(0.5,2.0))])],
-            'RandomForest': [Pipeline([('features', rfeatures), ('RandomForest', RandomForestRegressor(n_estimators=200))]),
-                            dict(rfeatures_params +
-                                 [('RandomForest__max_depth', [3, None]), ('RandomForest__n_estimators', sp_randint(10, 200)),
-                                    ('RandomForest__min_samples_split', sp_randint(2, 11)),
-                                    ('RandomForest__min_samples_leaf', sp_randint(1, 11)),
-                                    ('RandomForest__bootstrap', [True, False])])],
-            'Ridge': [Pipeline([('features', rfeatures), ('Ridge', Ridge())]),
-                            dict(rfeatures_params + [('Ridge__alpha', sp_uniform(0.5, 2.))])],
-            'SGD': [Pipeline([('features', rfeatures), ('SGD', SGDRegressor())]),
-                    dict(rfeatures_params +
-                         [('SGD__loss', ['squared_loss', 'huber', 'epsilon_insensitive', 'squared_epsilon_insensitive']),
-                            ('SGD__penalty', ['l1','l2','elasticnet']), ('SGD__alpha', sp_uniform(0.0001, 0.0005)),
-                            ('SGD__l1_ratio', sp_uniform(0.05, 0.95))])]
-            #'''  SV causes autoML to get hung up on some datasets.  Even on Linux with the timeout working, it hangs.
-            #'SV': [Pipeline([('features', rfeatures), ('SV', SVR(C=1))]),
-            #        dict(rfeatures_params +
-            #        [('SV__kernel', ['linear', 'rbf', 'poly', 'sigmoid']), ('SV__gamma', [1e-4, 1e-3]), ('SV__C', sp_randint(1, 1000)),
-            #       ('SV__epsilon', sp_uniform(0.05, 0.2))])]
-            #''' 
-        }
+        self.rinit = {}
+        if not self.do_regression_test:
+            self.rinit['AdaBoost'] = [Pipeline([('features', rfeatures),
+                                                ('AdaBoost', AdaBoostRegressor(n_estimators=100))]),
+                                      dict(rfeatures_params +
+                                           [('AdaBoost__learning_rate', sp_uniform(0.75, 1.25))])]
+        else:
+            self.rinit['AdaBoost'] = [Pipeline([('features', rfeatures),
+                                                ('AdaBoost', AdaBoostRegressor(n_estimators=100, random_state=0xDEADBEEF))]),
+                                      dict(rfeatures_params +
+                                           [('AdaBoost__learning_rate', sp_uniform(0.75, 1.25))])]
+        self.rinit['BayesianRidge'] = [Pipeline([('features', rfeatures),
+                                                 ('BayesianRidge', BayesianRidge())]),
+                                       dict(rfeatures_params +
+                                            [('BayesianRidge__alpha_1', sp_uniform(1e-6, 1e-4)),
+                                             ('BayesianRidge__alpha_2', sp_uniform(1e-6, 1e-4)),
+                                             ('BayesianRidge__lambda_1', sp_uniform(1e-6, 1e-4)),
+                                             ('BayesianRidge__lambda_2', sp_uniform(1e-6, 1e-4))])]
+        if not self.do_regression_test:
+            self.rinit['DecisionTree'] = [Pipeline([('features', rfeatures),
+                                                    ('DecisionTree', DecisionTreeRegressor())]),
+                                          dict(rfeatures_params +
+                                               [('DecisionTree__max_depth', [3, 4, 5, None]),
+                                                ('DecisionTree__max_features', ['sqrt', 'log2', None]),
+                                                ('DecisionTree__min_samples_split', sp_randint(2, 11)),
+                                                ('DecisionTree__min_samples_leaf', sp_randint(2, 11))])]
+        else:
+            self.rinit['DecisionTree'] = [Pipeline([('features', rfeatures),
+                                                    ('DecisionTree', DecisionTreeRegressor(random_state=0xDEADBEEF))]),
+                                          dict(rfeatures_params +
+                                               [('DecisionTree__max_depth', [3, 4, 5, None]),
+                                                ('DecisionTree__max_features', ['sqrt', 'log2', None]),
+                                                ('DecisionTree__min_samples_split', sp_randint(2, 11)),
+                                                ('DecisionTree__min_samples_leaf', sp_randint(2, 11))])]
+        if not self.do_regression_test:
+            self.rinit['ElasticNet'] = [Pipeline([('features', rfeatures),
+                                                  ('ElasticNet', ElasticNet())]),
+                                        dict(rfeatures_params +
+                                             [('ElasticNet__alpha', sp_uniform(0.5, 2.)),
+                                              ('ElasticNet__l1_ratio', sp_uniform(0.,1.))])]
+        else:
+            self.rinit['ElasticNet'] = [Pipeline([('features', rfeatures),
+                                                  ('ElasticNet', ElasticNet(random_state=0xDEADBEEF))]),
+                                        dict(rfeatures_params +
+                                             [('ElasticNet__alpha', sp_uniform(0.5, 2.)),
+                                              ('ElasticNet__l1_ratio', sp_uniform(0.,1.))])]
+        if not self.do_regression_test:
+            self.rinit['ExtraTrees'] = [Pipeline([('features', rfeatures),
+                                                  ('ExtraTrees', ExtraTreesRegressor())]),
+                                        dict(rfeatures_params +
+                                             [('ExtraTrees__max_depth', [3, None]),
+                                              #'ExtraTrees__max_features': sp_randint(1, nfeatures),
+                                              ('ExtraTrees__min_samples_split', sp_randint(2, 11)),
+                                              ('ExtraTrees__min_samples_leaf', sp_randint(1, 11)),
+                                              ('ExtraTrees__bootstrap', [True, False])])]
+        else:
+            self.rinit['ExtraTrees'] = [Pipeline([('features', rfeatures),
+                                                  ('ExtraTrees', ExtraTreesRegressor(random_state=0xDEADBEEF))]),
+                                        dict(rfeatures_params +
+                                             [('ExtraTrees__max_depth', [3, None]),
+                                              #'ExtraTrees__max_features': sp_randint(1, nfeatures),
+                                              ('ExtraTrees__min_samples_split', sp_randint(2, 11)),
+                                              ('ExtraTrees__min_samples_leaf', sp_randint(1, 11)),
+                                              ('ExtraTrees__bootstrap', [True, False])])]
+        if not self.do_regression_test:
+            self.rinit['GradientBoost'] = [Pipeline([('features', rfeatures),
+                                                     ('GradientBoost', GradientBoostingRegressor(n_estimators=100))]),
+                                           dict(rfeatures_params +
+                                                [('GradientBoost__max_depth', [3, None]),
+                                                 #'GradientBoost__max_features': sp_randint(1, nfeatures),
+                                                 ('GradientBoost__min_samples_split', sp_randint(2, 11)),
+                                                 ('GradientBoost__min_samples_leaf', sp_randint(1, 11)),
+                                                 ('GradientBoost__learning_rate', sp_uniform(0.01, 0.1)),
+                                                 ('GradientBoost__loss', ['ls', 'lad', 'huber', 'quantile'])])]
+        else:
+            self.rinit['GradientBoost'] = [Pipeline([('features', rfeatures),
+                                                     ('GradientBoost', GradientBoostingRegressor(n_estimators=100,
+                                                                                                 random_state = 0xDEADBEEF))]),
+                                           dict(rfeatures_params +
+                                                [('GradientBoost__max_depth', [3, None]),
+                                                 #'GradientBoost__max_features': sp_randint(1, nfeatures),
+                                                 ('GradientBoost__min_samples_split', sp_randint(2, 11)),
+                                                 ('GradientBoost__min_samples_leaf', sp_randint(1, 11)),
+                                                 ('GradientBoost__learning_rate', sp_uniform(0.01, 0.1)),
+                                                 ('GradientBoost__loss', ['ls', 'lad', 'huber', 'quantile'])])]
+
+        # If the random int is <= 1, we can't use minkowski distances.
+        KNeighbors__int_p = sp_randint.rvs(0, 2)
+        if KNeighbors__int_p > 1:
+            KNeighbors__string_metric = "minkowski"
+        else:
+            KNeighbors__string_metric = "manhattan"
+
+        self.rinit['KNeighbors'] = [Pipeline([('features', rfeatures),
+                                              ('KNeighbors', KNeighborsRegressor())]),
+                                    dict(rfeatures_params +
+                                         [('KNeighbors__n_neighbors', sp_randint(3, 15)),
+                                          ('KNeighbors__weights', ['uniform', 'distance']),
+                                          ('KNeighbors__p', [KNeighbors__int_p]),
+                                          ('KNeighbors__metric', [KNeighbors__string_metric])])]
+        if not self.do_regression_test:
+            self.rinit['Lasso'] = [Pipeline([('features', rfeatures),
+                                             ('Lasso', Lasso())]),
+                                   dict(rfeatures_params +
+                                        [('Lasso__alpha', sp_uniform(0.5,2.0))])]
+        else:
+            self.rinit['Lasso'] = [Pipeline([('features', rfeatures),
+                                             ('Lasso', Lasso(random_state = 0xDEADBEEF))]),
+                                   dict(rfeatures_params +
+                                        [('Lasso__alpha', sp_uniform(0.5,2.0))])]
+        if not self.do_regression_test:
+            self.rinit['RandomForest'] = [Pipeline([('features', rfeatures),
+                                                    ('RandomForest', RandomForestRegressor(n_estimators=200))]),
+                                          dict(rfeatures_params +
+                                               [('RandomForest__max_depth', [3, None]),
+                                                ('RandomForest__n_estimators', sp_randint(10, 200)),
+                                                ('RandomForest__min_samples_split', sp_randint(2, 11)),
+                                                ('RandomForest__min_samples_leaf', sp_randint(1, 11)),
+                                                ('RandomForest__bootstrap', [True, False])])]
+        else:
+            self.rinit['RandomForest'] = [Pipeline([('features', rfeatures),
+                                                    ('RandomForest', RandomForestRegressor(n_estimators=200,
+                                                                                           random_state=0xDEADBEEF))]),
+                                          dict(rfeatures_params +
+                                               [('RandomForest__max_depth', [3, None]),
+                                                ('RandomForest__n_estimators', sp_randint(10, 200)),
+                                                ('RandomForest__min_samples_split', sp_randint(2, 11)),
+                                                ('RandomForest__min_samples_leaf', sp_randint(1, 11)),
+                                                ('RandomForest__bootstrap', [True, False])])]
+        if not self.do_regression_test:
+           self.rinit['Ridge'] = [Pipeline([('features', rfeatures),
+                                            ('Ridge', Ridge())]),
+                                  dict(rfeatures_params +
+                                       [('Ridge__alpha', sp_uniform(0.5, 2.))])]
+        else:
+           self.rinit['Ridge'] = [Pipeline([('features', rfeatures),
+                                            ('Ridge', Ridge(random_state=0xDEADBEEF))]),
+                                  dict(rfeatures_params +
+                                       [('Ridge__alpha', sp_uniform(0.5, 2.))])]
+        if not self.do_regression_test:
+           self.rinit['SGD'] = [Pipeline([('features', rfeatures),
+                                          ('SGD', SGDRegressor())]),
+                                dict(rfeatures_params +
+                                     [('SGD__loss', ['squared_loss', 'huber', 'epsilon_insensitive', 'squared_epsilon_insensitive']),
+                                      ('SGD__penalty', ['l1','l2','elasticnet']),
+                                      ('SGD__alpha', sp_uniform(0.0001, 0.0005)),
+                                      ('SGD__l1_ratio', sp_uniform(0.05, 0.95))])]
+        else:
+           self.rinit['SGD'] = [Pipeline([('features', rfeatures),
+                                          ('SGD', SGDRegressor(random_state=0xDEADBEEF))]),
+                                dict(rfeatures_params +
+                                     [('SGD__loss', ['squared_loss', 'huber', 'epsilon_insensitive', 'squared_epsilon_insensitive']),
+                                      ('SGD__penalty', ['l1','l2','elasticnet']),
+                                      ('SGD__alpha', sp_uniform(0.0001, 0.0005)),
+                                      ('SGD__l1_ratio', sp_uniform(0.05, 0.95))])]
+        #'''  SV causes autoML to get hung up on some datasets.  Even on Linux with the timeout working, it hangs.
+        #'SV': [Pipeline([('features', rfeatures), ('SV', SVR(C=1))]),
+        #        dict(rfeatures_params +
+        #        [('SV__kernel', ['linear', 'rbf', 'poly', 'sigmoid']), ('SV__gamma', [1e-4, 1e-3]), ('SV__C', sp_randint(1, 1000)),
+        #       ('SV__epsilon', sp_uniform(0.05, 0.2))])]
+        #''' 
+        
         self.experts = Experts()
         
         for model in excludeModels:
@@ -270,7 +385,8 @@ class Model(object):
         max_model_time = max_time / len(self.rinit) 
         
         self.X_train, self.X_test, self.y_train, self.y_test = self.data.getTrainAndTestData(test_size=self.test_size)
-        self.trainSupervisedModel(self.getExecutionTime(self.rinit, max_model_time/10), self.rinit, max_iterations, max_model_time, verbosity)
+        self.trainSupervisedModel(self.getExecutionTime(self.rinit, max_model_time/10),
+                                  self.rinit, max_iterations, max_model_time, verbosity)
 
     def trainSupervisedModel(self, model2exectime, init, max_iterations, max_model_time=60, verbosity=0):
         """This is the core method used for training supervised models. The parameters max_iterations and max_model_time can be used to

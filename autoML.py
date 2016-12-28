@@ -3,6 +3,7 @@
 ##  F Torres forked from S Kataria auotML-multiData on Aug 29, 2016
 #####################################################################################
 ##  Imports
+from math import ceil
 from Data import Data
 from Model import Model
 from DeIdentify import DeIdentify
@@ -65,7 +66,7 @@ def plot_regression(y_test, ypred, m, filename = 'testplot.png', title='Regressi
 #       The value is over-ridden during cross validation for classification, clustering, and regression.
 # 
 
-default_type2maxiterations = {'clustering': 10, 'classification': 100, 'regression': 100}
+default_type2maxiterations = {'clustering': 10, 'classification': 100, 'regression': 100, 'outlier_detection': 10}
 default_max_time = 1440
 n_pca_components_default = 4
 default_n_experts = 5   #number of experts to use in Ensemble scoring
@@ -274,6 +275,17 @@ def run_autoML() :
             print("secondary_results: " + str(secondary_results))
         print("Starting to plot clustering results")
         best_expert.plot(d.X, title="Clustering of %s"%file, show=True)
+    elif p.model_type == 'outlier_detection':
+        for exp in range(2):
+            print("\nResults for expert %d" % (exp))
+            cur_model = m.experts.experts[exp][1]
+            secondary_results = ''
+            for dist in m.experts.experts[exp][3]:
+                secondary_results += str.format('%d ' % ceil(dist * 100))
+            #print(secondary_results)  # this can be stored in a file if needed - it shows the label associated with each data point
+            print("model: " + str(cur_model))
+            print("secondary_results: " + secondary_results)
+
 
 # Here's where the automatic testing code feeds in faux parser input and checks the output strings
 def test_autoML(commandLineArgs=[]) :
@@ -314,8 +326,20 @@ def test_autoML(commandLineArgs=[]) :
                 'expert_names': returned_expert_names,
                 'item_labels': returned_item_labels}
     elif p.model_type == 'outlier_detection':
-        print("Haven't implemented regression test for outlier_detection")
+        # almost identical to clustering!
+        returned_expert_names = []
+        returned_distances = []
+        for exp in range(2):
+            cur_model = m.experts.experts[exp][1]
+            returned_expert_names.append(str(cur_model))
+            returned_expert_distances = ''
+            for dist in m.experts.experts[exp][3]:
+                returned_expert_distances += str.format('%d ' % ceil(dist * 10))
+            returned_distances.append(returned_expert_distances)
 
+        return {'experts':str(m.experts),
+                'expert_names':returned_expert_names,
+                'distances':returned_distances}
 
 # here's where we say what should be executed when this module is the "main" module, as opposed to a module that's
 # loaded by test_autoML.py.

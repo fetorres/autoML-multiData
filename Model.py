@@ -477,19 +477,30 @@ class Model(object):
         if isUnixLike:  signal.alarm(0)
         return execTime
 
-    def trainOutlierDetector(self, max_percentile=10, max_model_time=60, max_iterations=10 ):
+    def trainOutlierDetector(self, max_percentile=10, max_time=60, max_iterations=10 ):
         """Build outlier detection models. The max_percentile parameter defines the maximum percentage of points that are
         defined as outliers while max_model_time specifies the maximum amount of time that can be spent on building each model.
         max_iterations is not used, but is present to be consistent with other methods
         """
         print("=======================  IN trainOutlierDetector  ========================")
         pca = PCA(self.n_pca_components)
-        self.oinit = {
-            'SV': Pipeline([('features', pca), ('SV', OneClassSVM())]),
-            'EllipticEnvelope': Pipeline([('features', pca), ('EllipticEnvelope', EllipticEnvelope())])
-        }
+        self.oinit = {}
+        if not self.do_regression_test:
+            self.oinit['SV'] = Pipeline([('features', pca), ('SV', OneClassSVM())])
+        else:
+            self.oinit['SV'] = Pipeline([('features', pca), ('SV', OneClassSVM(random_state = 0xDEADBEEF))])
+        self.oinit['EllipticEnvelope'] =  Pipeline([('features', pca), ('EllipticEnvelope', EllipticEnvelope())])
+
         self.experts = Experts()
-        for model, clf in self.oinit.iteritems():
+        
+        if not self.do_regression_test:
+            items = self.oinit.items()
+        else:
+            items = sorted(self.oinit.items())
+
+        max_model_time = max_time / ( len(self.oinit) ) + 1
+
+        for model, clf in items:
             if isUnixLike:  signal.alarm( int( max_model_time ) + 1 ) # Start the timer - raise an exception if fitting this model does not complete in max_time seconds
             try:
                 #self.logger.info("Fitting %s (max_time=%ds)" % (model, max_time))
@@ -501,7 +512,7 @@ class Model(object):
                 print("   Elapsed time: %0.2fs" % duration)
                 distances = clf.decision_function(self.data.X).ravel()
                 distance_threshold = scoreatpercentile(distances, max_percentile)
-                self.experts.insertExpert((1.0, model, clf, distance_threshold))
+                self.experts.insertExpert((distance_threshold, model, clf, distances))
             except Exception as msg :
                 #self.logger.info("Skipping %s due to error: %s" % (model, msg))
                 print("Skipping %s due to error: %s" % (model, msg))

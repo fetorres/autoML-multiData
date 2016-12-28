@@ -212,7 +212,8 @@ class Model(object):
         else:
             pca = PCA(self.n_pca_components, whiten=False, random_state=0xDEADBEEF)
         rfeatures = FeatureUnion([('pca', pca), ('kbest', rselection)])
-        rfeatures_params = [('features__pca__n_components', sp_randint(1,nfeatures+1)), ('features__pca__whiten', [True, False]),
+        rfeatures_params = [('features__pca__n_components', sp_randint(1,nfeatures+1)),
+                            ('features__pca__whiten', [True, False]),
             ('features__kbest__k', sp_randint(1, nfeatures+1))]
         #rfeatures = FeatureUnion([('kbest', rselection)])
         #rfeatures_params = [('features__kbest__k', sp_randint(1, nfeatures))]
@@ -512,28 +513,45 @@ class Model(object):
         by the RandomizedSearchCluster class which relies on IPython's parallel computing capabilties. As such, this method
         needs to specify an IPython client object that will be the interface to the parallel computing facilities."""
         print("=======================  IN trainClusterer  ========================")
-        self.clinit = {
-            'Dbscan': [DbscanC(eps=0.5, min_samples=5),
-                        {'eps': sp_uniform(1e-5, 4), 'min_samples': sp_randint(5, 30)}],
-            'Kmeans': [KmeansC(n_clusters=2),
-                    {'n_clusters': sp_randint(2, 20), 'init': ['k-means++', 'random'], 'n_init': [10]}]
-        }
+        self.clinit = {}
+        # The a original version of DBSCAN has lots of cases where it can't find
+        # any clusters.  For the regression test, use bigger neighborhoods and require
+        # fewer items in those neighborhoods to qualify as clusters.
+        if not self.do_regression_test:
+            self.clinit['Dbscan'] = [DbscanC(eps=0.5, min_samples=5),
+                                     {'eps': sp_uniform(1e-5, 4), 'min_samples': sp_randint(5, 30)}]
+        else:
+            self.clinit['Dbscan'] = [DbscanC(eps=0.5, min_samples=5),
+                                     {'eps': sp_uniform(2, 4), 'min_samples': sp_randint(5, 8)}]
+        self.clinit['Kmeans'] = [KmeansC(n_clusters=2),
+                                 {'n_clusters': sp_randint(2, 20), 'init': ['k-means++', 'random'], 'n_init': [10]}]
+        
         #c = Client()
         #view = c.load_balanced_view()
         self.experts = Experts()
 
-        max_model_time = max_time / ( len(self.cinit) - len( excludeModels ) ) + 1
+        max_model_time = max_time / ( len(self.clinit) - len( excludeModels ) ) + 1
         for model in excludeModels:
             self.clinit.pop(model, None)
-        
-        for model, v in self.clinit.iteritems():
+
+        # go through each of the types of clustering (KMeans, DBSCAN, etc)
+        # If this is not a regression test, process the models in any order.  If
+        # we are in a regression test, always process them in the same order.
+        if not self.do_regression_test:
+            items = self.clinit.items()
+        else:
+            items = sorted(self.clinit.items())
+
+        for model, v in items:
             clf = None
             if isUnixLike: signal.alarm( int( max_model_time ) + 1 )  # Start the timer - raise an exception if fitting this model does not complete in max_time seconds
             try:
                 #self.logger.info("Fitting %s (max_iterations=%d, max_time=%ds)" % (model, max_iterations, max_time))
                 print("Fitting %s (max_iterations=%d, max_model_time=%ds)" % (model, max_iterations, max_model_time))
                 t0 = time()
+                # prepare to use several sets of parameters to characterize this clustering methods
                 clf = RandomizedSearchCluster(v[0], v[1], n_iter=max_iterations)
+                # do the actual clustering and compute a score for each clustering
                 clf.fit(self.data.X)  # serial search over the parameter space using IPython.parallel
                 #clf.pfit(view, self.data.X)  # parallel search over the parameter space using IPython.parallel
                 duration = time() - t0
@@ -541,6 +559,8 @@ class Model(object):
                 print("   Elapsed time: %0.2fs" % duration)
                 if clf.best_score > 0.0:  # it is possible that every iteration had an error - don't add to experts in that case
                     silhouette = clf.score(self.data.X, self.data.y)
+                    # insert the score into the array of experts so that the biggest score ends up at the beginning
+                    # of the array.
                     self.experts.insertExpert((silhouette, model, clf.best_estimator, clf.best_estimator.get_params()))
             except Exception as msg :
                 print("Stopping %s: %s" % (model, msg))

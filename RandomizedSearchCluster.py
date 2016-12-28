@@ -43,8 +43,12 @@ class RandomizedSearchCluster(object):
                 if score > self.best_score:
                     self.best_score = score
                     self.best_estimator = estimator
-            except ( Exception, e ):
-                print("Skipping iteration due to error: %s" % e)
+            except Exception as inst:
+                print(type(inst))
+                print(inst.args)
+                print(inst)
+#            except ( Exception, e ):
+#                print("Skipping iteration due to error: %s" % e)
     
     #def pfit(self, view, train):
     #    """Run fit on the estimator with randomly drawn parameters. Runs in parallel using IPython.parallel methods.

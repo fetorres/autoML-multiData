@@ -235,13 +235,14 @@ def autoML_process(p):
 
         # we've just finished fitting each classifier, regressor or clusterer to the data.
         # Return the model so that we can evaluate the results.
-        return (m, n_experts)
+        return (m, n_experts, d, file)
 
 def run_autoML() :
+    print("Starting run_autoML")
     """ Provide an entry point to run autoML """
     parser = autoML_setup()
     parser.parse_args(namespace=p)
-    (m, n_experts) = autoML_process(p)
+    (m, n_experts, d, file) = autoML_process(p)
 
     # at this point, all the specified models have been fitted.  Print out
     # the list of classifiers, regressors or clusterers and
@@ -264,9 +265,14 @@ def run_autoML() :
         print ( "Ensemble R^2 (based on weighted average of top %d models): %0.3f\n" % (n_experts, r2_score(m.y_test, ypred) ) )
 
     elif p.model_type == 'clustering':
-        best_expert = m.experts.experts[0][2]
-        secondary_results = '\n'.join(map(str, best_expert.labels_))
-        #print secondary_results  # this can be stored in a file if needed - it shows the label associated with each data point
+        for exp in range(2):
+            print("\nResults for expert %d" % (exp))
+            best_expert = m.experts.experts[exp][2]
+            secondary_results = ' '.join(map(str, best_expert.labels_))
+            #print(secondary_results)  # this can be stored in a file if needed - it shows the label associated with each data point
+            print("best_expert: " + str(best_expert))
+            print("secondary_results: " + str(secondary_results))
+        print("Starting to plot clustering results")
         best_expert.plot(d.X, title="Clustering of %s"%file, show=True)
 
 # Here's where the automatic testing code feeds in faux parser input and checks the output strings
@@ -276,7 +282,7 @@ def test_autoML(commandLineArgs=[]) :
     parser = autoML_setup()
 
     parser.parse_args(args=commandLineArgs, namespace=p)
-    (m, n_experts) = autoML_process(p)
+    (m, n_experts, d, file) = autoML_process(p)
 
     # compare the outputs
     if p.model_type == 'classification':
@@ -296,7 +302,17 @@ def test_autoML(commandLineArgs=[]) :
         return {'experts':str(m.experts),
                 'regressionReport':(n_experts, r2_score(m.y_test, ypred))}
     elif p.model_type == 'clustering':
-        print("Haven't implemented regression test for clustering")
+        # return the parameters and their methods.  Also return each
+        # method's clusters.  Those are the label for each input item.
+        returned_expert_names = []
+        returned_item_labels = []
+        for expert in range(2):
+            cur_expert = m.experts.experts[expert][2]
+            returned_expert_names.append(str(cur_expert))
+            returned_item_labels.append(' '.join(map(str, cur_expert.labels_)))
+        return {'experts':str(m.experts),
+                'expert_names': returned_expert_names,
+                'item_labels': returned_item_labels}
     elif p.model_type == 'outlier_detection':
         print("Haven't implemented regression test for outlier_detection")
 

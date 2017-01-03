@@ -115,7 +115,7 @@ nose2 --with-coverage
 ```
 # Setting up jenkins
 
-These are the steps I followed to install and initialize jenkins.  After doing this, I discovered the Jenkins Handbook on https://jenkins.io/user-handbook.pdf which covered some of the same ground.
+These are the steps I followed to install and initialize jenkins.  After doing this, I discovered the Jenkins Handbook on https://jenkins.io/user-handbook.pdf which covered some of the same ground.  It also has some big holes where no one has volunteered to write the documentation.
 
 1. Start by reading https://jenkins.io/download/  Click on the link entitled "Installing Jenkins on Ubuntu", which takes you to 'https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu'.
 

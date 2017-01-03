@@ -116,9 +116,15 @@ nose2 --with-coverage
 # Setting up jenkins
 
 These are the steps I followed to install and initialize jenkins.
-1. Start by reading https://jenkins.io/download/  Click on the link entitled "Installing Jenkins on Ubuntu", which takes you to https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu.
+
+1. Start by reading https://jenkins.io/download/  Click on the link entitled "Installing Jenkins on Ubuntu", which takes you to 'https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu'.
+
 2. If they're not already present on your soon-to-be jenkins server, install the java jdk and jre.  The default versions of these are from OpenJDK.  In the distant past, OpenJDK had problems with java constructs that worked fine in Oracle Java, so I normally just install Oracle Java.  See the instructions for updating your repository list and installing java 8 on https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04.
+
 3. Back on https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu, follow the instructions labelled "Installation".  I skipped the rest of the instructions, though they might be useful sometime.
+
 4. Open a browser (I used chromium-browser) on the target jenkins machine an use it to view "localhost:8080"
+
 5. It starts by telling you to copy the special super-secret administrator's key from a file into the initializer.  Do it.
+
 6. Fill in the info that specifies you as the first administrator.

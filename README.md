@@ -138,6 +138,9 @@ These are the steps I followed to install and initialize jenkins.  After doing t
 * Type "GitHub" in the filter window on the upper right of the screen so you only see GitHub plugins.
 * check the box next to "GitHub Authentication plug-in" and press the "Install without restart" button.
 * Check the "Restart jenkins when installation is complete and no jobs are running" checkbox.  Jenkins will restart.  ou should log in again.
+* Press "Configure System" at the top of the column of icons.  Scroll down and set the "Jenkins URL" to a valid URL instead of "localhost".  Since the pretty name that google cloud gave to our server means nothing outside of google cloud, I think you have to use the naked IP Address.  Remember to press the "Save" button!
 10. Now we add users.  Go to the main dashboard and press "Manage Jenkins", then "Configure Global Security"
+  * Set Access Control" to "GitHub authentication PlugIn"
+  
 
 	

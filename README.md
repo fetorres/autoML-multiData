@@ -115,7 +115,7 @@ nose2 --with-coverage
 ```
 # Setting up jenkins
 
-These are the steps I followed to install and initialize jenkins.  After doing this, I discovered the Jenkins Handbook on https://jenkins.io/user-handbook.pdf which covered some of the same ground.  It also has some big holes where no one has volunteered to write the documentation.
+These are the steps I followed to install and initialize jenkins.  After doing this, I discovered the Jenkins Handbook on https://jenkins.io/user-handbook.pdf which covered some of the same ground.  http://www.tutorialspoint.com/jenkins/ is also nice.  It also has some big holes where no one has volunteered to write the documentation.
 
 1. Start by reading https://jenkins.io/download/  Click on the link entitled "Installing Jenkins on Ubuntu", which takes you to 'https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu'.
 
@@ -127,5 +127,15 @@ These are the steps I followed to install and initialize jenkins.  After doing t
 
 5. It starts by telling you to copy the special super-secret administrator's key from a file into the initializer.  Do it.
 
-6. Fill in the info that specifies you as the first administrator.
+6. Let it load its favorite plugins.
 
+7. Fill in the info that specifies you as the first administrator.
+
+8. You get a screen with a cheery button that says "Start Using Jenkins".  Click it.
+
+9. When things are all set up, Jenkins is going to fetch code from github and test it.  To do that, we have to get the authorizations sync'd up.  To do that, we need to fetch the GitHub Authentication plugin.
+. From the dashboard, click "Manage Jenkins" link, then the "Manage Plugins" link.
+. Type "GitHub" in the filter window on the upper right of the screen so you only see GitHub plugins
+. 
+. 
+	

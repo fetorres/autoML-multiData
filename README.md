@@ -134,10 +134,10 @@ These are the steps I followed to install and initialize jenkins.  After doing t
 8. You get a screen with a cheery button that says "Start Using Jenkins".  Click it.
 
 9. When things are all set up, Jenkins is going to fetch code from github and test it.  To do that, we have to get the authorizations sync'd up.  To do that, we need to fetch the GitHub Authentication plugin.
+* From the dashboard, click "Manage Jenkins" link, then the "Manage Plugins" link.
+* Type "GitHub" in the filter window on the upper right of the screen so you only see GitHub plugins.
+* check the box next to "GitHub Authentication plug-in" and press the "Install without restart" button.
+* Check the "Restart jenkins when installation is complete and no jobs are running" checkbox.  Jenkins will restart.  ou should log in again.
+10. Now we add users.  Go to the main dashboard and press "Manage Jenkins", then "Configure Global Security"
 
-. From the dashboard, click "Manage Jenkins" link, then the "Manage Plugins" link.
-
-. Type "GitHub" in the filter window on the upper right of the screen so you only see GitHub plugins.
-. 
-. 
 	

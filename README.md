@@ -135,7 +135,7 @@ These are the steps I followed to install and initialize jenkins.  After doing t
 
 9. I tried to use GitHub authentication for Jenkins, but couldn't get it to work.  When it was set up and you logged off of jenkins, you couldn't log back on.  There was evidence that jenkins asked github for data (github put up messages on the console asking if handing the jenkins was ok) but I never saw an indication that jenkins did anything useful after that.  So, we now let jenkins keep its own user database.  We also use the plain old git plugin, not the fancy github plugin.
 
-10. Press "Manage Jenkins", then "Configure System" at the top of the column of icons.  Scroll down and set the "Jenkins URL" to a valid URL instead of "localhost".  Since the pretty name that google cloud gave to our server means nothing outside of google cloud, I think you have to use the naked IP Address.  Also scroll to the "Git" section an fill in the user.name and user.email fields.  Remember to press the "Save" button!
+10. Press "Manage Jenkins", then "Configure System" at the top of the column of icons.  Scroll down and set the "Jenkins URL" to a valid URL instead of "localhost".  Since the pretty name that google cloud gave to our server means nothing outside of google cloud, I think you have to use the naked IP Address.  Also scroll to the "Git" section an fill in the user.name and user.email fields.  I *think* that you're specifying name of the jenkins server, which is "jenkins", not your name.  I *think* that it's ok to set the suer.email value to your email address.  Remember to press the "Save" button!
 
 * Press Manage Jenkins", then "Configure Global Security"  Under "Access Control" and "Security Realm", press "Jenkins' own user database" and "Allow users to sign up" below it.
 
@@ -149,7 +149,10 @@ These are the steps I followed to install and initialize jenkins.  After doing t
 
 * You can fetch more plugins at this point if you wish.  Click "Manage Jenkins", the "Manaage Plugins".  The "Installed" tab tells you which plugins you have.  The "Available" tab lists plugins that you might want.  Once you install the plugings, it seems to be a good idea to restart Jenkins.  There are several ways to do this.  One is to tack "/restart" onto the end of the URL that you're using to contact jenkins.  For example, "http://localhost:8080/restart"
 
-*
+* to create a test job, I basically followed the section labelled "Setting up a Jenkins job" from http://www.vogella.com/tutorials/Jenkins/article.html.  I had git fetch data from my repo.  I used the 15-minute polling scheduleing scheme.  I had it invoke a script ("nose2 --with-coverage") and turned off the building step since python doesn't need to be compiled or linked.  With those changes, it seems to be working!
+
+
+
 
 
 

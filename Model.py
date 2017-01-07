@@ -69,6 +69,7 @@ class Model(object):
         place an upper limit on the grid search iterations and the time spent on each model fit. Finally,
         the excludeModels parameter can be used to specify a list of models that should not be fit (for example,
         if the user already knows that a particular model is unsuitable for a particular data set)."""
+        print("=======================  IN trainClassifier  ========================")
         self.nvars = self.data.X.shape[1]
         if self.nvars < 4:
             nfeatures = self.nvars
@@ -201,6 +202,7 @@ class Model(object):
         place an upper limit on the grid search iterations and the time spent on each model fit. Finally,
         the excludeModels parameter can be used to specify a list of models that should not be fit (for example,
         if the user already knows that a particular model is unsuitable for a particular data set)."""
+        print("=======================  IN trainRegressor  ========================")
         self.nvars = self.data.X.shape[1]
         if self.nvars < 4:
              nfeatures = self.nvars

@@ -143,6 +143,12 @@ These are the steps I followed to install and initialize jenkins.  After doing t
 
 * To give your users permissions to do things, press "Manage Jenkins", then "Configure Global Security".  Under "Access Control" and "Authorization", click "Matrix-based security", type in your user's name in the "user/group to add" box, add it, and assign whatever permissions you like.  Press Save!
 
-* We're going to want to access a private gitub respository, so we'll need a public/private key pair.  We need to use ssh-keygen to do that, but that requires sudo.  Here's where things get a bit squirrelly.  You
+* We're going to want to access a private gitub respository, so we'll need a public/private key pair.  We need to use ssh-keygen to do that, but that requires sudo.  Here's where things get a bit squirrelly.  If you used a key pair to open the SSH connection to your jenkins server machine, you may not have a password.  Either sudo or ssh-keygen wants a password.  So, give yourself one using "sudo passwd your.username
+
+* Once you have a password, use "sudo -u jenkins ssh-keygen to get a public/private pair.  I accepted all the defaults.
+
+
+
+
 
 	

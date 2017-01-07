@@ -61,7 +61,7 @@ avg / total       0.81      0.80      0.79      1097
 #########################  End of Simplest Classification test  #################
 
 #########################  Simplest test of Regression  #########################
-
+'''
 # It's unfortunate that "regression" has two very different meanings here.
 # In software methology, a "regression test" just tries to guarantee that
 # each method produces the same results as it did in the past.  It's used
@@ -208,5 +208,5 @@ def test_outlierDetection_0():
         print("\ndistances for expert %d:" % exp)
         print(expected_distances[exp])
         assert(expected_distances[exp] == distances[exp])
-
+'''
 

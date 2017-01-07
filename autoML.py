@@ -300,7 +300,7 @@ def test_autoML(commandLineArgs=[]) :
     if p.model_type == 'classification':
         pickle.dump( m, open( "classify_models.p", "wb" ))
         ypred = m.experts.predict(m.X_test, method='majority', top=n_experts)
-        plot_confusion_matrix(confusion_matrix(m.y_test, ypred), m, 'majority_voting')
+        #plot_confusion_matrix(confusion_matrix(m.y_test, ypred), m, 'majority_voting')
 
         # return the three strings that constitute our output.
         # These are the classifiers with their figures of merit,

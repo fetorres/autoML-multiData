@@ -147,7 +147,9 @@ These are the steps I followed to install and initialize jenkins.  After doing t
 
 * Once you have a password, use "sudo -u jenkins ssh-keygen to get a public/private pair.  I accepted all the defaults.
 
+* You can fetch more plugins at this point if you wish.  Click "Manage Jenkins", the "Manaage Plugins".  The "Installed" tab tells you which plugins you have.  The "Available" tab lists plugins that you might want.  Once you install the plugings, it seems to be a good idea to restart Jenkins.  There are several ways to do this.  One is to tack "/restart" onto the end of the URL that you're using to contact jenkins.  For example, "http://localhost:8080/restart"
 
+*
 
 
 

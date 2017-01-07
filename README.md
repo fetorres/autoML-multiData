@@ -115,7 +115,7 @@ nose2 --with-coverage
 ```
 # Setting up jenkins
 
-These are the steps I followed to install and initialize jenkins.  After doing this, I discovered the Jenkins Handbook on https://jenkins.io/user-handbook.pdf which covered some of the same ground.  http://www.tutorialspoint.com/jenkins/ is also nice.  It also has some big holes where no one has volunteered to write the documentation.
+These are the steps I followed to install and initialize jenkins.  After doing this, I discovered the Jenkins Handbook on https://jenkins.io/user-handbook.pdf which covered some of the same ground.  It also has some big holes where no one has volunteered to write the documentation.  http://www.tutorialspoint.com/jenkins/ and http://www.vogella.com/tutorials/Jenkins/article.html are also nice.  
 
 1. Start by reading https://jenkins.io/download/  Click on the link entitled "Installing Jenkins on Ubuntu", which takes you to 'https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu'.
 
@@ -123,7 +123,7 @@ These are the steps I followed to install and initialize jenkins.  After doing t
 
 3. Back on https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu, follow the instructions labelled "Installation".  I skipped the rest of the instructions, though they might be useful sometime.
 
-4. Open a browser (I used chromium-browser) on the target jenkins machine an use it to view "localhost:8080"
+4. Open a browser (I used chromium-browser) on the target jenkins server an use it to view "localhost:8080"  Let me emphasize that - you need to log into the server on which jenkins will run.  You'll probably use SSH for this.  SSH may want you to use private keys.  On that server, open a browser.  You do not was a browser that opens on the desktop of the machine that you're using to connect to the soon-to-be-running-jenkins server.  For example, ddlinux.parc.xerox.com is my office Linux box.  It is receiving my keystrokes and using SSH to send them to a Google Cloud server that has an exterior IP Address and is named "automl-test-v1".  You want the browser to be invoked from automl-test-v1.
 
 5. It starts by telling you to copy the special super-secret administrator's key from a file into the initializer.  Do it.
 
@@ -133,14 +133,16 @@ These are the steps I followed to install and initialize jenkins.  After doing t
 
 8. You get a screen with a cheery button that says "Start Using Jenkins".  Click it.
 
-9. When things are all set up, Jenkins is going to fetch code from github and test it.  To do that, we have to get the authorizations sync'd up.  To do that, we need to fetch the GitHub Authentication plugin.
-* From the dashboard, click "Manage Jenkins" link, then the "Manage Plugins" link.
-* Type "GitHub" in the filter window on the upper right of the screen so you only see GitHub plugins.
-* check the box next to "GitHub Authentication plug-in" and press the "Install without restart" button.
-* Check the "Restart jenkins when installation is complete and no jobs are running" checkbox.  Jenkins will restart.  ou should log in again.
-* Press "Configure System" at the top of the column of icons.  Scroll down and set the "Jenkins URL" to a valid URL instead of "localhost".  Since the pretty name that google cloud gave to our server means nothing outside of google cloud, I think you have to use the naked IP Address.  Remember to press the "Save" button!
-10. Now we add users.  Go to wiki.jenkins-ci.org/display/JENKINS/Github+OAuth+Plugin and follow the steps below "Setup", and "Security Realm in Global Security.
+9. I tried to use GitHub authentication for Jenkins, but couldn't get it to work.  When it was set up and you logged off of jenkins, you couldn't log back on.  There was evidence that jenkins asked github for data (github put up messages on the console asking if handing the jenkins was ok) but I never saw an indication that jenkins did anything useful after that.  So, we now let jenkins keep its own user database.  We also use the plain old git plugin, not the fancy github plugin.
 
-  
+10. Press "Manage Jenkins", then "Configure System" at the top of the column of icons.  Scroll down and set the "Jenkins URL" to a valid URL instead of "localhost".  Since the pretty name that google cloud gave to our server means nothing outside of google cloud, I think you have to use the naked IP Address.  Also scroll to the "Git" section an fill in the user.name and user.email fields.  Remember to press the "Save" button!
+
+* Press Manage Jenkins", then "Configure Global Security"  Under "Access Control" and "Security Realm", press "Jenkins' own user database" and "Allow users to sign up" below it.
+
+* To add users, press the "Manage Jenkins", then "Manage Users" icon.  Click on the "Create User" icon on the far left of the screen and add whatever info you think is appropriate.
+
+* To give your users permissions to do things, press "Manage Jenkins", then "Configure Global Security".  Under "Access Control" and "Authorization", click "Matrix-based security", type in your user's name in the "user/group to add" box, add it, and assign whatever permissions you like.  Press Save!
+
+* We're going to want to access a private gitub respository, so we'll need a public/private key pair.  We need to use ssh-keygen to do that, but that requires sudo.  Here's where things get a bit squirrelly.  You
 
 	

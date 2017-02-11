@@ -1,3 +1,6 @@
+Author of original version of PARC autoML:  Raj Minhas, PARC
+Contributors:  Dan Davies, PARC
+
 #  Setting up your python environment	
 This version is being tested using Python 3.5.
  It is being tested on Windows 64-bit and Linux Ubuntu 64-bit.  autoML.py should also work on MacOSx 64-bit
